@@ -1,0 +1,12 @@
+let sum = 7 + 3
+console.log(sum)
+let result = 2 ** 3
+console.log(result)
+let quotient = 77 / 2
+console.log(quotient)
+let remainder = 29% 3
+console.log(remainder)
+let product = 3 * 4
+console.log(product)
+console.log(4 == '4')
+console.log(4 === '4')

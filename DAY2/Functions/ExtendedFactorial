@@ -1,0 +1,25 @@
+function factorial(num){
+    var result = 1;
+    if (num == 1 || num == 0){
+        return 1
+    }
+    for (let i = 1 ; i<=num ; i++){
+    result = result * i
+    }
+    return result;
+    
+    
+}
+
+
+//example
+
+console.log(factorial(1))
+
+//Combinator
+function combinator (n,p){
+let y = factorial(n) / (factorial(p) * factorial (n - p))
+return y
+}
+ 
+console.log(combinator(5,2))

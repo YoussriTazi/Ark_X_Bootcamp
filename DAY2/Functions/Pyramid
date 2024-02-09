@@ -1,0 +1,29 @@
+// Define the number of rows for the pyramid
+let n = 4;
+
+// Loop through the rows of the pyramid
+for (let i = 1; i <= n; i++) {
+  // Initialize a letiable to store the pyramid pattern for the current row
+  let pyramidPattern = "";
+
+  // Add the spaces for each row
+  for (let j = 1; j <= n - i; j++) {
+    pyramidPattern += " ";
+  }
+
+  // Add the stars for each row
+  for (let k = 0; k < 2 * i - 1; k++) {
+    pyramidPattern += "*";
+  }
+  console.log(pyramidPattern);
+}
+  //Add root of the tree
+  pyramidTree = ""
+for (let r=1; r<=3; r++){
+    pyramidTree += " "}
+    
+    pyramidTree =pyramidTree + "|"
+
+
+  // Log the pyramid pyramidTree to the console 
+    console.log(pyramidTree);

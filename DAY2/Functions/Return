@@ -1,0 +1,7 @@
+function calculateTotal(price, discount) {
+  const total = price - discount;
+  return total; // Sending back the calculated price
+}
+
+const finalPrice = calculateTotal(100, 10); // Calling the function
+console.log("Your final price is:", finalPrice); // Output: "Your final price is: 90"

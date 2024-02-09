@@ -1,0 +1,8 @@
+//difference between forEach and map
+const array1 = [1, 2, 3];
+
+
+array1.forEach((element) => console.log(element * 2))
+
+const map1 = array1.map((x) => " this is a key:" + x * 2);
+console.log(map1)

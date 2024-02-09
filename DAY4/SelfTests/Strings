@@ -1,0 +1,16 @@
+let s = 'single';
+let d = "double";
+const b = `backtick`;
+console.log(s)
+let speech = "Youssri said 'This Is The Beginning My New Journey In Coding'"
+console.log(speech)
+let tip = "We Can Escape Quotes By Using \\";
+console.log(tip)
+console.log(speech.length)
+let word = "Above";
+let firstChar = word[0];
+console.log(firstChar)
+let seconChar = word[1];
+console.log(seconChar);
+
+

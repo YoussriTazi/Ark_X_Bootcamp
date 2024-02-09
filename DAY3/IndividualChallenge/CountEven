@@ -1,0 +1,16 @@
+function countEven(array){
+    let count = 0;
+
+    for (const element of array) {
+        if (element % 2 === 0) (
+            count++
+        )
+    }
+    return count;
+}
+
+
+//Example
+let number = [2,4,3,6,12]
+let result = countEven(number)
+console.log(result)

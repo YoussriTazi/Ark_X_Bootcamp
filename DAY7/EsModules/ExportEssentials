@@ -1,0 +1,5 @@
+export function callmyname () {
+    (console.log('Youssri'))
+}
+
+callmyname()

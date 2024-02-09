@@ -1,0 +1,2 @@
+let wantsSugar = true
+if (wantsSugar) { console.log("Adding sugar to the coffe!"); } else { console.log("Enjoy your cofee!"); }

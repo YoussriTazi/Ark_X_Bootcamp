@@ -1,0 +1,12 @@
+const me = {
+    firstName : "Youssri",
+    lastName : "Tazi",
+    age : 26,
+    fullName : function (){
+                console.log (this.firstName + " " + this.lastName)
+    }
+}
+
+
+console.log(me.firstName);
+me.fullName()

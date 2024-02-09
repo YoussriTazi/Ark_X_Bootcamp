@@ -1,0 +1,16 @@
+async function divide () {
+
+try {
+    console.log("BEGIN");
+    const res = divide( );
+    console.log("Result = " + res); // won't execute
+} catch(error) {
+    console.log("An error has occured: " + error.message);
+} finally {
+    console.log("END");
+}
+}
+ divide();
+// OUTPUT:
+// BEGIN
+// 

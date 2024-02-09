@@ -1,0 +1,20 @@
+
+
+let age = 5;
+while (age < 10) {
+  console.log('Your age is less than 10'); 
+  age++;
+}
+
+console.log("You are now over 10"); //That's a Break
+
+
+
+//Using Do---While
+
+let years = 5;
+do {
+    console.log('You are under 10HELLO WORLD');
+    years++;
+  } while(years < 10)
+console.log('You are now over 10')

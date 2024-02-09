@@ -1,0 +1,10 @@
+import {
+    callmyname
+} from 'ExportEssentials';
+    
+// File: myModule.js
+const {callmyname} = require('ExportEssentials');
+
+
+
+callmyname ()
